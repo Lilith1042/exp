@@ -157,7 +157,7 @@ class Target:
         """ Инициализация новой цели. """
         self.x = rnd(600, 780)
         self.y = rnd(300, 550)
-        self.r = rnd(2, 50)
+        self.r = rnd(10, 50)
         self.color = RED
         self.live = 1
 
